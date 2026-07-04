@@ -15,12 +15,16 @@ Implement the 4 empty Java classes inside the package `com.library` according to
   * `isAvailable` (boolean) -> *Hint: This tracks if the item is currently in the library or checked out.*
 * **Constructor:**
   * Accepts `String title` and `String id`. 
-  * Sets the variables accordingly and defaults `isAvailable` to `true` (since all items start on the shelf).
+  * Sets the variables accordingly and defaults `isAvailable` to `true` (since all items start on 
+  * the shelf).
 * **Encapsulation Requirements:**
-  * Create public getters for `title`, `id`, and `isAvailable`. (Note: Boolean getters are conventionally named `isAvailable()`).
-  * **No raw setter for `isAvailable`!** Instead, control this boolean flag using custom state-changing methods below.
+  * Create public getters for `title`, `id`, and `isAvailable`. (Note: Boolean getters are conventionally
+  * named `isAvailable()`).
+  * **No raw setter for `isAvailable`!** Instead, control this boolean flag using custom state-changing
+  * methods below.
 * **Methods:**
-  * `public void checkOut()`: If the item is available, change `isAvailable` to `false` and print `"[Title] has been successfully checked out."` If it's already checked out, print `"[Title] is already checked out!"`
+  * `public void checkOut()`: If the item is available, change `isAvailable` to `false` and print 
+  * `"[Title] has been successfully checked out."` If it's already checked out, print `"[Title] is already checked out!"`
   * `public void returnItem()`: Change `isAvailable` to `true` and print `"[Title] has been returned."`
   * `public void displayDetails()`: Prints a generic summary containing the title and ID.
 
